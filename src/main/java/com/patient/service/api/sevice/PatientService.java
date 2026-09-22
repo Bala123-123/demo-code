@@ -44,7 +44,7 @@ public class PatientService {
     public void deletePatient(Long id) {
 
         System.out.println("balu");
-
+        System.out.println("priyanshi");
         patientRepository.deleteById(id);
     }
 }
