@@ -46,6 +46,8 @@ public class PatientService {
         System.out.println("balu");
         System.out.println("haseena");
         System.out.println("priyanshi");
+        System.out.println("pr wnat");
+        System.out.println("vtycy gh");
         patientRepository.deleteById(id);
     }
 }
