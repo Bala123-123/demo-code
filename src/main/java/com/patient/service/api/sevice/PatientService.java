@@ -42,6 +42,9 @@ public class PatientService {
     }
 
     public void deletePatient(Long id) {
+
+        System.out.println("balu");
+
         patientRepository.deleteById(id);
     }
 }
